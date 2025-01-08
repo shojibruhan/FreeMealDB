@@ -1,0 +1,90 @@
+.search-bar
+{
+    width: 50%;
+    height: 40px;
+    border: 1px solid chocolate;
+    border-radius: 5px;
+    box-shadow: 4px 4px 8px gray;
+    margin-top: 100px;
+    margin-left: 400px;
+}
+
+.btn-search
+{
+    background-color:rgb(255, 81, 0);
+    width: 100px;
+    height: 40px;
+    padding: 10px;
+    color: whitesmoke;
+    border-radius: 5px;
+    border: 0px;
+    box-shadow: 4px 4px 8px gray;
+    margin-left: 10px;
+    margin-top: 100px;
+}
+
+.btn-search:active 
+{
+    background-color: rgb(255, 81, 0);
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+.search-section
+{
+    display: flex;
+    align-items: center;
+}
+img
+{
+    width: 250px;
+    border-radius: 5%;
+}
+.all-meals
+{
+    display: flex;
+    /* margin: auto; */
+    gap: 15px;
+    flex-wrap: wrap;
+
+}
+
+ .meal-title
+ {
+    color: brown;
+ }
+ .meal
+ {
+    /* border: 1px solid gray; */
+    width: 250px;
+    padding: 5px;
+    box-shadow: 4px 4px 8px gray;
+    border-radius: 5%;
+    justify-content: space-evenly;
+    cursor: pointer;
+    position: relative;
+    text-align: center;
+ }
+ .single-meal
+ {
+    margin: auto;
+    width: 20%;
+    box-shadow: 4px 4px 8px gray;
+    border-radius: 20px;
+    align-items: center;
+    
+    padding: 5px;
+ }
+
+.meal-title
+{
+    color: brown;
+    text-align: center;
+}
+.img-ingred
+{
+    width: 250px;
+    border-radius: 5%;
+    margin-left: 15px;
+    
+
+}
