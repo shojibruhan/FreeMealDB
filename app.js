@@ -22,7 +22,7 @@ const findMeals = (event) =>
         {
             console.log(data);
             resultHeading.innerHTML=`
-                Search result for ${searchItem}
+                <h3>Search result for ${searchItem}</h3>
             `
             if(data.meals === null)
             {
@@ -30,17 +30,7 @@ const findMeals = (event) =>
             }
             else
             {
-                // mealsElement.innerHTML= data.meals.map((meal) =>
-                //     `
-                //     <div class= "meal">
-                //     <img  src="${meal.strMealThumb}" alt="Nothing">
-                //     <div class='meal-info' data-mealID="${meal.idMeal}">
-                //         <h3 class="meal-title">${meal.strMeal}</h3>
-                //     </div> 
-                //     <p>${meal.strArea}</p>
-                //     </div>
-                //     `
-                // ).join("")
+               
                 mealsElement.innerHTML=data.meals.map((meal) =>
                 
                     `
